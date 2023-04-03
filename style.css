@@ -234,3 +234,49 @@ header {
 .add-cart:hover {
   background: #171427d5;
 }
+
+/*RESPONSIVE  */
+
+@media (max-width: 1080px) {
+  .nav{
+    padding: 15px;
+  }
+  section{
+    padding: 48px 0 32px;
+  }
+  .container{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .shop{
+    margin-top: 32px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav{
+    padding: 11px;
+  }
+
+  .logo{
+    font-size: 16px;
+  }
+ 
+  .cart{
+    width: 350px;
+  }
+ 
+}
+
+@media (max-width: 360px) {
+  .shop{
+    margin-top: 16px !important;
+  }
+
+  .cart{
+    width: 100%;
+  }
+}
+ 
+ 
+
